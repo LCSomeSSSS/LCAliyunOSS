@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.6.0)
+  - IQAudioRecorderController (1.2.0):
+    - SCSiriWaveformView
+  - LPDQuoteImagesView (0.3.1)
+  - Masonry (1.0.2)
+  - SCSiriWaveformView (1.1.0)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AliyunOSSiOS (~> 2.6.0)
+  - IQAudioRecorderController
+  - LPDQuoteImagesView
+  - Masonry
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliyunOSSiOS: 058b038cc82000dadb8f8e3893a97243124f2898
+  IQAudioRecorderController: 1d46d99330cb2c9381568665d123cf435460a43e
+  LPDQuoteImagesView: 5e60a06696df6fef7546d038371cbf17b7830d52
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SCSiriWaveformView: fbb2be796930670698ed6705f3b48f3dd387a73f
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 3fb1523f32a168325b72704df4534a4cc802e1e5
+
+COCOAPODS: 1.2.1

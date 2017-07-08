@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'OSS上传' do
+pod 'AliyunOSSiOS', '~> 2.6.0'
+pod 'AFNetworking', '~> 3.0'
+pod 'LPDQuoteImagesView'
+pod 'IQAudioRecorderController'
+pod 'SVProgressHUD'
+pod 'Masonry'
+end

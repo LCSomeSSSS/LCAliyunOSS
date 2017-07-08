@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AliyunOSSiOS" "${PODS_ROOT}/Headers/Public/IQAudioRecorderController" "${PODS_ROOT}/Headers/Public/LPDQuoteImagesView" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SCSiriWaveformView" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/AliyunOSSiOS" "$PODS_CONFIGURATION_BUILD_DIR/IQAudioRecorderController" "$PODS_CONFIGURATION_BUILD_DIR/LPDQuoteImagesView" "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/SCSiriWaveformView" "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AliyunOSSiOS" -isystem "${PODS_ROOT}/Headers/Public/IQAudioRecorderController" -isystem "${PODS_ROOT}/Headers/Public/LPDQuoteImagesView" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/SCSiriWaveformView" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"AliyunOSSiOS" -l"IQAudioRecorderController" -l"LPDQuoteImagesView" -l"Masonry" -l"SCSiriWaveformView" -l"SVProgressHUD" -l"resolv" -framework "AVFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
