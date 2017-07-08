@@ -61,7 +61,7 @@ OSSClient * client;
 //    id<OSSCredentialProvider> credential2 = [[OSSFederationCredentialProvider alloc] initWithFederationTokenGetter:^OSSFederationToken * {
 //        OSSTaskCompletionSource * tcs = [OSSTaskCompletionSource taskCompletionSource];
 //        
-//        NSString *string = @"http://m5.seorj.cn:8080/video/appTokenServer/getStsToken";
+//        NSString *string = @"//////////////////";
 //        NSDictionary *dict = @{@"mobile":mobile,@"sign":secretString};
 //        
 //        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
@@ -137,7 +137,7 @@ OSSClient * client;
 //    //上传回调URL
 //    获取用户ID
 //    NSString *userId = @"13715006982";
-//    NSString *upUrl = @"http://m5.seorj.cn:8080/video/appTokenServer/ossCallbackAppupload";
+//    NSString *upUrl = @"//////////////";
 //    
 //    
 //    //不同类型的数据设置不同的文件名 根据文件名可以设置不同类型的回调参数
