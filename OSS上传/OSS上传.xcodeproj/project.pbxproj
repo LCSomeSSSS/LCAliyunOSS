@@ -11,6 +11,7 @@
 		4177451C1F0F70DA007C744A /* LCUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4177451A1F0F70DA007C744A /* LCUploadViewController.m */; };
 		4177451F1F0F712B007C744A /* LCPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4177451E1F0F712B007C744A /* LCPickerController.m */; };
 		9E066DB07B9D53254A7FE76D /* libPods-OSS上传.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347528D6340A4DBF4D2750B9 /* libPods-OSS上传.a */; };
+		B7AA763824C09DFE00228434 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AA763724C09DFE00228434 /* test.m */; };
 		B7E8A67A1EE8400C0093B02E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E8A6791EE8400C0093B02E /* main.m */; };
 		B7E8A67D1EE8400D0093B02E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E8A67C1EE8400D0093B02E /* AppDelegate.m */; };
 		B7E8A6831EE8400D0093B02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E8A6811EE8400D0093B02E /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 		4177451D1F0F712B007C744A /* LCPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPickerController.h; sourceTree = "<group>"; };
 		4177451E1F0F712B007C744A /* LCPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPickerController.m; sourceTree = "<group>"; };
 		89DB638BA3184694342B6482 /* Pods-OSS上传.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSS上传.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSS上传/Pods-OSS上传.release.xcconfig"; sourceTree = "<group>"; };
+		B7AA763624C09DFE00228434 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		B7AA763724C09DFE00228434 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		B7E8A6751EE8400C0093B02E /* OSS上传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSS上传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E8A6791EE8400C0093B02E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7E8A67B1EE8400D0093B02E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				417745181F0F70DA007C744A /* LCAliyunOSS.m */,
 				4177451D1F0F712B007C744A /* LCPickerController.h */,
 				4177451E1F0F712B007C744A /* LCPickerController.m */,
+				B7AA763624C09DFE00228434 /* test.h */,
+				B7AA763724C09DFE00228434 /* test.m */,
 				B7E8A6811EE8400D0093B02E /* Main.storyboard */,
 				B7E8A6841EE8400D0093B02E /* Assets.xcassets */,
 				B7E8A6861EE8400D0093B02E /* LaunchScreen.storyboard */,
@@ -147,7 +152,7 @@
 				TargetAttributes = {
 					B7E8A6741EE8400C0093B02E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = CG2H52LECZ;
+						DevelopmentTeam = 75FL68JQ8Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,6 +162,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -241,6 +247,7 @@
 				B7E8A67D1EE8400D0093B02E /* AppDelegate.m in Sources */,
 				4177451B1F0F70DA007C744A /* LCAliyunOSS.m in Sources */,
 				B7E8A67A1EE8400C0093B02E /* main.m in Sources */,
+				B7AA763824C09DFE00228434 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = CG2H52LECZ;
+				DEVELOPMENT_TEAM = 75FL68JQ8Y;
 				INFOPLIST_FILE = "OSS上传/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edison.youYue.ios;
@@ -379,7 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = CG2H52LECZ;
+				DEVELOPMENT_TEAM = 75FL68JQ8Y;
 				INFOPLIST_FILE = "OSS上传/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edison.youYue.ios;
